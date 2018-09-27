@@ -1,0 +1,145 @@
+{
+  "configVersion": 1,
+  "index": "/scoreboard/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/scoreboard/1.57517f034a2bf0af2df8.js",
+        "/scoreboard/2.76f35fa166df7e72d8ca.js",
+        "/scoreboard/3.e25c6966e4202f5c0f62.js",
+        "/scoreboard/4.d2cf376b46052689a9f3.js",
+        "/scoreboard/5.bad37724b970be69acd1.js",
+        "/scoreboard/6.bc4d9a072659770b20ee.js",
+        "/scoreboard/7.fd7d11a9b3e65a20d6e7.js",
+        "/scoreboard/apple-touch-icon.png",
+        "/scoreboard/common.57d6e2df21e2c18dddce.js",
+        "/scoreboard/favicon.ico",
+        "/scoreboard/index.html",
+        "/scoreboard/main.78469d27bfa026d7f375.js",
+        "/scoreboard/polyfills.6ee029aba96132c20701.js",
+        "/scoreboard/runtime.da07c691bc00295718d0.js",
+        "/scoreboard/safari-pinned-tab.svg",
+        "/scoreboard/scripts.1bb65570ef961697a258.js",
+        "/scoreboard/styles.b65356c5349c7ac69461.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "fonts",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "urls": [
+        "/scoreboard/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "/scoreboard/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "/scoreboard/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "/scoreboard/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "/scoreboard/fontawesome-webfont.fee66e712a8a08eef580.woff"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/scoreboard/assets/icons/favicon-144x144.png",
+        "/scoreboard/assets/icons/favicon-192x192.png",
+        "/scoreboard/assets/icons/favicon-36x36.png",
+        "/scoreboard/assets/icons/favicon-48x48.png",
+        "/scoreboard/assets/icons/favicon-512x512.png",
+        "/scoreboard/assets/icons/favicon-72x72.png",
+        "/scoreboard/assets/icons/favicon-96x96.png",
+        "/scoreboard/assets/img/agent.jpg",
+        "/scoreboard/assets/img/sb-goals.jpg",
+        "/scoreboard/assets/img/sb-today.jpg",
+        "/scoreboard/assets/img/sb-top.jpg",
+        "/scoreboard/assets/img/sb-total-today.jpg",
+        "/scoreboard/assets/mock-data/env-settings.json",
+        "/scoreboard/assets/mock-data/login.json",
+        "/scoreboard/assets/mock-data/user.json",
+        "/scoreboard/assets/mock-data/users.json",
+        "/scoreboard/assets/scripts/canvasjs.min.js",
+        "/scoreboard/assets/scripts/chart.min.js",
+        "/scoreboard/assets/scripts/ie-polyfills.min.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/.*",
+        "\\/users"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100000,
+      "maxAge": 259200000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/scoreboard/1.57517f034a2bf0af2df8.js": "adcc84ddf4cf2e91c17eb9754665526887de98a7",
+    "/scoreboard/2.76f35fa166df7e72d8ca.js": "91ad38636eafa963756135cc38322f5e451ee643",
+    "/scoreboard/3.e25c6966e4202f5c0f62.js": "1862490873ed1f84e8baa31c517cf1e159a6581a",
+    "/scoreboard/4.d2cf376b46052689a9f3.js": "cdeab72379476d108074bceac514b429345556b9",
+    "/scoreboard/5.bad37724b970be69acd1.js": "dff7d0f277f13f7d461e19eca0377eff2e1fb7e2",
+    "/scoreboard/6.bc4d9a072659770b20ee.js": "ec10cbe1ee47473a15957c3d934a357ab392ff1c",
+    "/scoreboard/7.fd7d11a9b3e65a20d6e7.js": "ab0ec813ce330387639f665408e258ea8ed3d211",
+    "/scoreboard/apple-touch-icon.png": "15abe2d99cd932cf81f00244cb9db469458911f8",
+    "/scoreboard/assets/icons/favicon-144x144.png": "cd740acbe91388f85669cc4f0fa5e5b290a856d2",
+    "/scoreboard/assets/icons/favicon-192x192.png": "7a0f10dcaff95684e0296cade925335825a14eed",
+    "/scoreboard/assets/icons/favicon-36x36.png": "c07c90a0195afffb63ec8eb62abe0632767590d0",
+    "/scoreboard/assets/icons/favicon-48x48.png": "c07c90a0195afffb63ec8eb62abe0632767590d0",
+    "/scoreboard/assets/icons/favicon-512x512.png": "d5ba9d380948b3a656701ba8d99ae110ec5363fb",
+    "/scoreboard/assets/icons/favicon-72x72.png": "b689da63c26bfcbdc1aedc5a149eb05f08625881",
+    "/scoreboard/assets/icons/favicon-96x96.png": "f4d69d4c58c2a4b6ffc8588e9bb5a800af96ef1a",
+    "/scoreboard/assets/img/agent.jpg": "84664cebd3943e7fa73acabd70a617bdc1ed31ed",
+    "/scoreboard/assets/img/sb-goals.jpg": "1ee082a7b6722532cfd36a1422c562ae893bd11a",
+    "/scoreboard/assets/img/sb-today.jpg": "b5c62f8df383a9672b5c1a1fedb67f6126414178",
+    "/scoreboard/assets/img/sb-top.jpg": "4420180774edd4d1f512f05d7528d1b6e12c40cd",
+    "/scoreboard/assets/img/sb-total-today.jpg": "e36a104c489e699229aa3693193bf3f9beb061c5",
+    "/scoreboard/assets/mock-data/env-settings.json": "fce25d3a8f4679053fa76bdb08380e76fe77ef8b",
+    "/scoreboard/assets/mock-data/login.json": "73317e37ab308c84bf2e446df847793e90776b76",
+    "/scoreboard/assets/mock-data/user.json": "7ede2282decea703345f5321155bfbec432a157f",
+    "/scoreboard/assets/mock-data/users.json": "14bb89b1ab175afe30a7f31106c880898cb6175e",
+    "/scoreboard/assets/scripts/canvasjs.min.js": "a882ee7a7d3b6113e917d249fe3688582223468a",
+    "/scoreboard/assets/scripts/chart.min.js": "905302e7203730a574fb68b09f42b8e1e4e86b36",
+    "/scoreboard/assets/scripts/ie-polyfills.min.js": "9c7e7d15d4cc7d8403c83fddc3a96ba4bc840773",
+    "/scoreboard/common.57d6e2df21e2c18dddce.js": "1053ad03dae11fbf122298b3dc97f86aa7b42101",
+    "/scoreboard/favicon.ico": "1dff7b49e72900e40abf57468befc2872e037534",
+    "/scoreboard/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/scoreboard/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/scoreboard/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/scoreboard/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/scoreboard/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/scoreboard/index.html": "0b81c21c23f5f2483c66b3553deca04c883af20d",
+    "/scoreboard/main.78469d27bfa026d7f375.js": "5f5beec0ea808ad6aaae9b55dc144d2dc1f4d284",
+    "/scoreboard/polyfills.6ee029aba96132c20701.js": "784c59f9f4220bb8c45c844c8dc37c48d76f4d6f",
+    "/scoreboard/runtime.da07c691bc00295718d0.js": "bfadedbcde3821cf81c8e1696d97f54cff3f374c",
+    "/scoreboard/safari-pinned-tab.svg": "2fa5629fc4c22d2a0e5a0a730fad7fb1a26ae627",
+    "/scoreboard/scripts.1bb65570ef961697a258.js": "8c539941542c3b15122fc62ddb73992f173e9a75",
+    "/scoreboard/styles.b65356c5349c7ac69461.css": "3efb75f9c300561cf5c083ba36eac5263b98c933"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
