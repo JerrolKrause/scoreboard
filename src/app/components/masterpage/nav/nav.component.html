@@ -1,0 +1,45 @@
+<button class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation" (click)="isOpen = !isOpen">
+  <i class="fa fa-bars" aria-hidden="true"></i>
+</button>
+
+<div class=" navbar-collapse" id="navbar-main" [ngClass]="{'collapse open': isOpen }">
+  <div class="navbar-mobile">
+
+    <ul class="navbar-nav mr-auto">
+      <!--
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+      <i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/monolith" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+      <i class="fa fa-cubes" aria-hidden="true"></i> Monolith
+    </a>
+  </li>
+      -->
+    </ul>
+    <div class="form-inline my-2 my-lg-0">
+      <!-- App update notification via service worker -->
+      <ng-container *ngIf="hasSW && hasUpdate$ | async as hasUpdate">
+        <a class="badge badge-warning mr-3" (click)="updateApp()" style="color:#fff;">
+          <i class="fa fa-warning"></i> Update Available
+        </a>
+      </ng-container>
+
+      <div ngbDropdown placement="bottom-right">
+        <a id="dropdown-toggler" ngbDropdownToggle class="d-none d-lg-block p-2 link">
+          <i class="fa fa-user mr-1"></i>
+         {{ userName }}
+        </a>
+        <div ngbDropdownMenu>
+          <a class="dropdown-item logout" (click)="logOut()" data-qa="mp-dropdown-logout">
+            <i class="fa fa-power-off" aria-hidden="true"></i> Sign Out
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="nav-mobile-bg" (click)="isOpen = !isOpen"></div>
+</div>

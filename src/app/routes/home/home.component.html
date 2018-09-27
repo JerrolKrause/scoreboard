@@ -1,0 +1,44 @@
+<div id="app-home">
+
+  <div style="height:2px;">
+    <div style="height:2px;background:red;width:20%;" id="progress" *ngIf="progressShow"></div>
+  </div>
+
+  <ngb-carousel style="height:calc(100vh - 2rem);"
+                (slide)="slide($event)"
+                [interval]="1000000"
+                [pauseOnHover]="false"
+                [showNavigationArrows]="true"
+                [showNavigationIndicators]="false">
+
+    <ng-template ngbSlide id="slide-1">
+      <app-top30 *ngIf="slideCurrent === 'slide-1' "></app-top30>
+    </ng-template>
+
+    <ng-template ngbSlide id="slide-a">
+      <app-top-css *ngIf="slideCurrent === 'slide-a' "></app-top-css>
+    </ng-template>
+
+    <ng-template ngbSlide id="slide-2">
+      <app-top-css-week *ngIf="slideCurrent === 'slide-2' "></app-top-css-week>
+    </ng-template>
+
+    <ng-template ngbSlide id="slide-3">
+      <app-today-stats *ngIf="slideCurrent === 'slide-3' "></app-today-stats>
+    </ng-template>
+
+    <ng-template ngbSlide id="slide-4">
+      <app-goals *ngIf="slideCurrent === 'slide-4' "></app-goals>
+    </ng-template>
+
+    <ng-template ngbSlide id="slide-5">
+      <app-top-transfers *ngIf="slideCurrent === 'slide-5' "></app-top-transfers>
+    </ng-template>
+
+
+
+  </ngb-carousel>
+
+<app-ticker></app-ticker>
+</div>
+

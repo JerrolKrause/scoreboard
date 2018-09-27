@@ -1,0 +1,6 @@
+{
+  "extends": [ "tslint-angular" ],
+  "rules": {
+    "no-trailing-whitespace": false
+  }
+}

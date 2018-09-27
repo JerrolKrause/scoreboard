@@ -1,0 +1,51 @@
+<div class="slide p-3">
+  <h1 class="title mb-3"><i class="fa fa-trophy" aria-hidden="true"></i> CSS Ranking</h1>
+  <div class="row">
+    <div class="col-12 col-md-3" *ngFor="let agent of agents">
+
+      <div class="card  mb-3" [ngClass]="{'card-success':agent === 0,'card-warning':agent === 1}">
+        <div class="card-body p-0">
+          
+          <table class="table table-sm small mb-0">
+            <thead>
+              <tr style="font-size:12px;">
+                <th colspan="6">John CSS Agent</th>
+              </tr>
+            </thead>
+     
+            <tbody>
+              <tr>
+                <td rowspan="3" class="text-center" style="vertical-align:middle;max-width:75px;">
+                  <div class="p-1"><img src="assets/img/agent.jpg" class="css mb-2" style="max-width: 100%;" /></div>
+                  <div class="name"></div>
+                </td>
+                <td class="label">Today</td>
+                <td><i class="fa fa-phone" aria-hidden="true"></i> 4</td>
+                <td class="green delta"><i class="fa fa-caret-up" aria-hidden="true"></i> 25%</td>
+                <td><i class="fa fa-exchange" aria-hidden="true"></i> 34</td>
+                <td class="green delta"><i class="fa fa-caret-up" aria-hidden="true"></i> 54%</td>
+              </tr>
+              <tr>
+                <td class="label">Week</td>
+                <td><i class="fa fa-phone" aria-hidden="true"></i> 21</td>
+                <td class="green delta"><i class="fa fa-caret-up" aria-hidden="true"></i> 25%</td>
+                <td><i class="fa fa-exchange" aria-hidden="true"></i> 546</td>
+                <td class="green delta"><i class="fa fa-caret-up" aria-hidden="true"></i> 54%</td>
+              </tr>
+              <tr>
+                <td class="label">Month</td>
+                <td><i class="fa fa-phone" aria-hidden="true"></i> 54</td>
+                <td class="green delta"><i class="fa fa-caret-up" aria-hidden="true"></i> 25%</td>
+                <td><i class="fa fa-exchange" aria-hidden="true"></i> 2,100</td>
+                <td class="green delta"><i class="fa fa-caret-up" aria-hidden="true"></i> 54%</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+
+    </div>
+  
+  </div>
+</div>

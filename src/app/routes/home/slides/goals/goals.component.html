@@ -1,0 +1,29 @@
+<div class="slide p-3">
+  <h1 class="title mb-3"><i class="fa fa-tachometer" aria-hidden="true"></i> Goals</h1>
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <h3 class="text-center" style="color:#000;">Talk Time Goals</h3>
+      <app-chart [type]="'stackedColumn100'"
+                 [data]="chartData"
+                 [colorsCustom]="['#d3001c','#18569d' ]"
+                 [showIndexLabel]="true"
+                 [showLegend]="false"
+                 [showYAxisLabels]="false"
+                 [height]="'calc(100vh - 10rem)'">
+      </app-chart>
+
+    </div>
+    <div class="col-12 col-md-6">
+      <h3 class="text-center" style="color:#000;">Transfer Goals</h3>
+      <app-chart [type]="'stackedColumn100'"
+                 [data]="chartData2"
+                 [colorsCustom]="['#d3001c','#18569d']"
+                 [showIndexLabel]="true"
+                 [showLegend]="false"
+                 [showYAxisLabels]="false"
+                 [height]="'calc(100vh - 10rem)'">
+      </app-chart>
+
+    </div>
+  </div>
+</div>

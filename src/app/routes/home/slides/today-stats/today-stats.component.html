@@ -1,0 +1,11 @@
+<div class="slide p-3">
+  <h1 class="title mb-3"  style="animation-delay:2s"><i class="fa fa-exchange" aria-hidden="true"></i> Today's Transfers &amp; Contacts</h1>
+  <app-chart [type]="'stackedColumn'"
+             [data]="chartData"
+             [colorsCustom]="['#d3001c','#18569d']"
+             [showLegend]="false"
+             [showIndexLabel]="true"
+             [showYAxisLabels]="false"
+             [height]="'calc(100vh - 10rem)'">
+  </app-chart>
+</div>

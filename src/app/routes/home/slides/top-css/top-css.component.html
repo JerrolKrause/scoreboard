@@ -1,0 +1,49 @@
+<div class="slide p-3">
+  <h1 class="title mb-3"><i class="fa fa-trophy" aria-hidden="true"></i> Top 5 CSS Today</h1>
+  <table class="table table-sm">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+        <th> Talk Time</th>
+        <th>% Against Average</th>
+        <th> Transfers</th>
+        <th>% Against Average</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr *ngFor="let css of cssData;let i = index">
+        <td>
+          <span class="badge badge-success badge-pill">{{i + 1}}</span>
+        </td>
+        <td><img src="assets/img/agent.jpg" class="css" /></td>
+        <td>
+          <i class="fa fa-phone" aria-hidden="true"></i> {{css[0].talk}} minutes
+          <!--
+  <app-chart [type]="'bar'"
+             [data]="css"
+             [colorsCustom]="['#00a651', '#193e68']"
+             [showLegend]="false"
+             [height]="'95px'">
+  </app-chart>
+      -->
+        </td>
+        <td class="green"><i class="fa fa-caret-up"></i> {{css[0].deltaMonth}}%</td>
+        <td>
+          <i class="fa fa-exchange" aria-hidden="true"></i> {{css[0].transfer}}
+          <!--
+  <app-chart [type]="'bar'"
+             [data]="css"
+             [colorsCustom]="['#00a651', '#193e68']"
+             [showLegend]="false"
+             [height]="'95px'">
+  </app-chart>
+      -->
+        </td>
+        <td class="green"><i class="fa fa-caret-up"></i> {{css[0].deltaWeek}}%</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
